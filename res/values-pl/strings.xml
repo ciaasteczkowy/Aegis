@@ -14,6 +14,10 @@
     <string name="text_stub">Nowe funkcje już niedługo!</string>
     <string name="descr_overflow_button">nadmiar</string>
     
+    <string name="preferences_advanced_category">Ustawienia zaawansowane</string>
+    <string name="preferences_advanced_enabled_confirmaton_sms_title">SMS potwierdzający</string>
+    <string name="preferences_advanced_enabled_confirmaton_sms_summary">Wysyłać SMS potwierdzający po zakończeniu akcji?</string>
+    <string name="preferences_advanced_change_password">Zmień hasło</string>    
     <string name="preferences_alarm_category">Alarm</string>
     <string name="preferences_alarm_enabled_title">Alarm</string>
     <string name="preferences_alarm_enabled_summary">Uruchom alarm i odtwórz dźwięki na urządzeniu</string>
@@ -40,6 +44,8 @@
     <string name="preferences_locate_activation_sms_summary">Zdecyduj jakim tekstem będzie aktywowana lokalizacja urządzenia. Zalecane jest użycie kodu PIN w wiadomości aktywacyjnej, aby uniknąć przypadkowych uruchomień lokalizacji.</string>
     <string name="preferences_locate_lock_pref_title">Blokada urządzenia</string>
     <string name="preferences_locate_lock_pref_summary">Czy aby zablokować urządzenie z domyślnym hasłem lub załączonym hasłem podczas lokalizowania?</string>
+    <string name="preferences_locate_geocode_pref_title">Odpowiedź z lokalizacją</string>
+    <string name="preferences_locate_geocode_pref_summary">Wysylać w odpowiedzi adres na podstawie lokalizacji? (Tylko US)</string>
     <string name="preferences_locate_update_duration_title">Częstotliwość aktualizowania położenia</string>
     <string name="preferences_locate_update_duration_summary">Wybierz jak często aktualizować położenie, aby uzyskać dokładniejsze dane. Częstsza aktualizacja spowoduje szybsze zużycie baterii.</string>
     <string name="preferences_locate_minimum_distance_title">Minimalny dystans</string>
@@ -72,6 +78,22 @@
     <string name="about_github_link">Link do źródła na Github</string>
     <string name="about_email_link">Wyślij e-mail do autora</string>
     <string name="about_share_link">Podziel się aeGis</string>
+    
+    <string name="overflow_advanced_settings">Ustawienia</string>
+    <string name="overflow_licenses">Licencje</string>
+    <string name="overflow_about">O programie</string>
+    
+    <string name="array_update_item1">30 sekund</string>
+    <string name="array_update_item2">1 minuta</string>
+    <string name="array_update_item3">2 minuty</string>
+    <string name="array_update_item4">3 minuty</string>
+    <string name="array_update_item5">5 minut</string>
+    
+    <string name="array_distance_item1">10 metrów</string>
+    <string name="array_distance_item2">25 metrów</string>
+    <string name="array_distance_item3">50 metrów</string>
+    <string name="array_distance_item4">100 metrów</string>
+    <string name="array_distance_item5">500 metrów</string>
     
     <string name="receiver_alarm_override">aeGis nadpisał ustawienia dźwięków.</string>
 </resources>
